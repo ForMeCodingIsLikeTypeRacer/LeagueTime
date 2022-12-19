@@ -1,0 +1,25 @@
+{
+  "name": "WebThatUsesRiotGamesAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "namesearch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ForMeCodingIsLikeTypeRacer/LeagueTime.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ForMeCodingIsLikeTypeRacer/LeagueTime/issues"
+  },
+  "homepage": "https://github.com/ForMeCodingIsLikeTypeRacer/LeagueTime#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0"
+  }
+}

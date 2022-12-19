@@ -4,13 +4,13 @@
 
 // IDEAS 2: create a database that stores the last game of the entered players name.
 
-// TODO: find out how to make a database
+// TODO: cors-request make a proxy server or something :(
 
-var SummonerURL = 'https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/';
-var MatchURL = 'https://americas.api.riotgames.com/lol/match/v5/matches/by-puuid/';
-var MatchDetailsURL = 'https://americas.api.riotgames.com/lol/match/v5/matches/';
+var SummonerURL = 'https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{summonerName}';
+var MatchURL = 'https://americas.api.riotgames.com/lol/match/v5/matches/by-puuid/{puuid}/ids';
+var MatchDetailsURL = 'https://americas.api.riotgames.com/lol/match/v5/matches/{matchId}';
 
-const api_key = 'api_key=RGAPI-b3122e3b-1e2d-4899-9002-aff1e5db2047';
+const api_key = 'api_key=RGAPI-37cbbd26-919b-4c2c-9a74-39adc775a4cb';
 // percentTwenty is put in empty spaces between names eg "Tom Kwon" would equal "Tom%20Kwon"
 const percentTwenty = '%20';
 
